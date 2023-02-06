@@ -1,0 +1,10 @@
+^C:\USERS\DELL\DOCUMENTS\TASK\ASSIGNMENT_0-SARAHMUTAHAR-MASTER\ASSIGNMENT_0-SARAHMUTAHAR-MASTER\CMAKEFILES\4930A6193565BEC711BD223C1898B32C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master -BC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/assignment.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+﻿  1>Building Custom Rule C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/CMakeLists.txt
+  CS247_prog.cpp
+  GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+  glslprogram.cpp
+  Generating Code...
+  assignment.vcxproj -> C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\Debug\assignment.exe

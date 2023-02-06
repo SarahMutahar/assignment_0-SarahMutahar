@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B95DB929-BBC0-3C06-B4E5-65215FBCB480}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master -BC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master --check-stamp-file C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3.pc.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master -BC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master --check-stamp-file C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3.pc.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master -BC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master --check-stamp-file C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3.pc.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master -BC:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master --check-stamp-file C:/Users/dell/Documents/Task/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\cmake_uninstall.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3.pc.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw3Config.cmake.in;C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\ZERO_CHECK.vcxproj">
+      <Project>{DDCB0E1C-7C0F-32B4-AFA8-8210EA3DB44F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\boing.vcxproj">
+      <Project>{F808A64F-D013-370A-BCC0-50684123CE03}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\clipboard.vcxproj">
+      <Project>{A5AC7142-FE39-343E-8028-F090F7801D53}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\cursor.vcxproj">
+      <Project>{1D255136-85B8-376E-9419-0D866B670BB4}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\empty.vcxproj">
+      <Project>{1E79CD68-8BF7-35D2-846A-977F6FA901B0}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\events.vcxproj">
+      <Project>{1D8E8B52-11B3-339A-B867-2A561F20DF45}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\gamma.vcxproj">
+      <Project>{3C8B988C-4C3F-3A44-A9ED-417A11568D29}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\gears.vcxproj">
+      <Project>{A99767A7-8E2E-39E7-A28B-B5C5746E497E}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\src\glfw.vcxproj">
+      <Project>{8B25F2E9-C1DE-3819-97FE-913E7074FA85}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\glfwinfo.vcxproj">
+      <Project>{E40EA7F1-7E08-3F83-9948-6BC952CFC6E6}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\heightmap.vcxproj">
+      <Project>{E4AA9279-A87B-36A0-99BB-46FB78D07788}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\icon.vcxproj">
+      <Project>{94B4A573-DC33-342A-AAEF-AB5757F56994}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\iconify.vcxproj">
+      <Project>{3B525B65-77D3-34F0-B880-2A501F21F6AC}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\inputlag.vcxproj">
+      <Project>{4554F108-3A5E-3571-9B70-A75E80AC5017}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\joysticks.vcxproj">
+      <Project>{73B50B93-5876-348E-BEA1-9CAFBE387313}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\monitors.vcxproj">
+      <Project>{2A9B6F38-5E2D-3D81-96C3-2A5E7C50CA64}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\msaa.vcxproj">
+      <Project>{3712DD20-AC09-3B5D-8E60-4CF9B62FD520}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\offscreen.vcxproj">
+      <Project>{8923F2D5-E70C-3761-A8E2-F822C833D411}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\opacity.vcxproj">
+      <Project>{D126B94B-AF9E-3E5C-8FA5-1EE9C2853389}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\particles.vcxproj">
+      <Project>{B1D1B228-419A-33E3-BCF2-C41188FF3BBE}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\reopen.vcxproj">
+      <Project>{6324140F-5AAF-35FF-8E82-A87867115213}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\sharing.vcxproj">
+      <Project>{33C1096D-8FE2-34E7-8206-47FC41A62E92}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\simple.vcxproj">
+      <Project>{14560DF4-5A29-3A4E-A424-CFEFE9EB520E}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\splitview.vcxproj">
+      <Project>{85B2600F-0D27-3C87-85C8-C6808C61B508}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\tearing.vcxproj">
+      <Project>{737322B2-4802-3132-A75A-366C796CA704}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\threads.vcxproj">
+      <Project>{A036369C-F986-306D-ABE1-6187B766B810}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\timeout.vcxproj">
+      <Project>{5D792C17-7776-3598-A7DB-0D2CCB3E1502}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\title.vcxproj">
+      <Project>{9D1502C2-A05F-3FB3-AF30-FC9B098C31F7}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\vulkan.vcxproj">
+      <Project>{B35238E4-832E-34E1-AD3E-3D2DE072762E}</Project>
+      <Name>vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\examples\wave.vcxproj">
+      <Project>{B6D12772-5E19-316B-837C-A1A500C9EEED}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\common\glfw-3.3\src\tests\windows.vcxproj">
+      <Project>{31468368-92A0-35F4-BE73-6EB462941AB5}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

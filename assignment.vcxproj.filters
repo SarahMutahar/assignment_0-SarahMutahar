@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\src\CS247_prog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\src\glslprogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dell\Documents\Task\assignment_0-SarahMutahar-master\assignment_0-SarahMutahar-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F0DE74D-1E41-3DFC-AB2C-EA903F0C647D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
